@@ -269,7 +269,7 @@ a.navbar-brand {
 
 .card-item:hover {
     background-color: var(--color-primary);
-    height: 440px;
+    height: 470px;
     transition: all 1s ease;
 }
 
@@ -295,12 +295,12 @@ font-size:14px;
     width: auto;
     margin-bottom: 0px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .card-item .price-produto {
     color: var(--color-primary);
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .card-item .add-carrinho {
