@@ -15,7 +15,7 @@
 }
 
 /* Tablets e Celulares (col) 0px a 767px */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .no-mobile {
         display: none!important;
@@ -108,6 +108,11 @@
         align-items: start;
     }
 
+    .card-item:hover  {
+        height: 240px;
+        transition: all 1s ease;
+    }
+
     .card-item .img-produto img {
         width: 80px;
     }
@@ -119,6 +124,31 @@
         text-align: left!important;
     }
 
+    .card-item .title-produto {
+        color: var(--color-black);
+        text-overflow: ellipsis;
+        white-space: wrap;
+        margin-bottom: 0px;
+    }
+
+    .card-item .description {
+        color: var(--color-black);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow:hidden;
+        height: 80px;
+        width: 180px;
+        margin-bottom: 0px;
+        transition: height 1s ease, white-space 0.3s ease;
+    }
+
+
+
+    .card-item:hover .description {
+        text-align: start;
+        white-space: normal;
+        height: auto;
+    }
 
     
     .price-produto {
