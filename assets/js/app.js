@@ -40,6 +40,7 @@ cardapio.metodos = {
             let temp = cardapio.templates.item.replace(/\${img}/g, e.img)
             .replace(/\${nome}/g, e.name)
             .replace(/\${title}/g, e.title)
+            .replace(/\${dsc}/g, e.dsc)
             .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
             .replace(/\${id}/g, e.id)
 
@@ -244,7 +245,7 @@ cardapio.metodos = {
 
                 let temp = cardapio.templates.itemCarrinho.replace(/\${img}/g, e.img)
                 .replace(/\${nome}/g, e.name)
-                .replace(/\${title}/g, e.title)
+                .replace(/\${dsc}/g, e.dsc)
                 .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
                 .replace(/\${id}/g, e.id)
                 .replace(/\${qntd}/g, e.qntd)
@@ -468,7 +469,7 @@ cardapio.metodos = {
 
             let temp = cardapio.templates.itemResumo.replace(/\${img}/g, e.img)
                 .replace(/\${nome}/g, e.name)
-                .replace(/\${title}/g, e.title)
+                .replace(/\${dsc}/g, e.dsc)
                 .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
                 .replace(/\${qntd}/g, e.qntd)
 
@@ -610,7 +611,7 @@ cardapio.templates = {
             </div>
             <div class="dados-produto">
             
-                <p class="title-produto"><b> \${qntd}X \${nome}</b></p>
+                <p class="title-produto"><b> \${nome}</b>\${dsc}</p>
                 <p class="price-produto"><b>R$ \${preco}</b><sub>un</sub></p>
             </div>
             <div class="add-carrinho">
@@ -629,7 +630,7 @@ cardapio.templates = {
             </div>
             <div class="dados-produto">
                 <p class="title-produto-resumo">
-                    <b>\${nome}</b>
+                    <b>\${nome}</b> \${dsc}
                 </p>
                 <p class="price-produto-resumo">
                     <b>R$ \${preco}</b>
