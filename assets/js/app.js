@@ -588,7 +588,7 @@ cardapio.templates = {
                     <b>\${nome}</b>
                 </p>
                 <p class="description text-start">
-                    \${title}
+                \${title} 
                 </p>
                 <p class="price-produto text-center">
                     <b>R$ \${preco}</b>
@@ -611,7 +611,6 @@ cardapio.templates = {
             <div class="dados-produto">
             
                 <p class="title-produto"><b> \${qntd}X \${nome}</b></p>
-                <p class="title-ingredient">\${title}</p>
                 <p class="price-produto"><b>R$ \${preco}</b><sub>un</sub></p>
             </div>
             <div class="add-carrinho">
