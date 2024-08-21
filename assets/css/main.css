@@ -279,7 +279,7 @@ a.navbar-brand {
 }
 
 .card-item .title-produto {
-font-size:16px;
+font-size:14px;
     color: var(--color-black);
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -287,7 +287,7 @@ font-size:16px;
 }
 
 .card-item .description {
-    font-size: 14px;    
+    font-size: 12px;    
     color: var(--color-text);
     text-overflow: ellipsis;
     white-space: normal;
