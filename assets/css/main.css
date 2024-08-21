@@ -284,20 +284,10 @@ a.navbar-brand {
 .card-item .description {
     color: var(--color-black);
     text-overflow: ellipsis;
-    white-space: wrap;
+    white-space: nowrap;
     overflow:hidden;
     height: 80px;
-    width: 200px;
-    margin-bottom: 0px;
-}
-
-.card-item .description:hover {
-    color: var(--color-black);
-    text-overflow: ellipsis;
-    white-space: wrap;
-    overflow:hidden;
-    height: 80px;
-    width: 200px;
+    width: 180px;
     margin-bottom: 0px;
 }
 
