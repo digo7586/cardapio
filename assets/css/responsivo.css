@@ -125,7 +125,7 @@
     }
 
     .card-item .title-produto {
-font-size: 14px;
+
         color: var(--color-black);
         text-overflow: ellipsis;
         white-space: wrap;
