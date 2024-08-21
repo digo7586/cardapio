@@ -290,7 +290,7 @@ a.navbar-brand {
     color: var(--color-text);
     text-overflow: ellipsis;
     white-space: normal;
-    height: auto;
+    height: 100px;
     width: auto;
     margin-bottom: 0px;
     text-align: center;
