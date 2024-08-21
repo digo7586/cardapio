@@ -264,7 +264,7 @@ a.navbar-brand {
 }
 
 .card-item {
-    height: 360px;
+    height: 435px;
 }
 
 .card-item .img-produto img {
@@ -276,7 +276,7 @@ a.navbar-brand {
     color: var(--color-black);
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
+    
     height: 40px;
     margin-bottom: 0px;
 }
@@ -292,6 +292,12 @@ a.navbar-brand {
     height: 30px;
     justify-content: center;
     align-items: center;
+}
+
+.card-item .description {
+    font-size: 14px;
+    color: var(--color-black);
+    margin-bottom: 5px;
 }
 
 .btn-menos {
@@ -336,9 +342,6 @@ a.navbar-brand {
     background-color: var(--color-primary);
 }
 
-.card-item:hover .title-produto {
-    display: none;
-}
 
 .card-item:hover .add-carrinho {
     display: flex;
@@ -346,7 +349,7 @@ a.navbar-brand {
 
 .card-item:hover .price-produto {
     color: var(--color-black-heavy)!important;
-    margin-top: 20px;
+   
 }
 
 
@@ -596,10 +599,19 @@ footer {
     margin-bottom: 0;
 }
 
+.modal-full .title-ingredient {
+    color: var(--color-black);
+    font-size: 14px;
+}
+
 .modal-full .price-produto {
     color: var(--color-primary);
     font-size: 24px;
     margin-bottom: 0;
+}
+
+.modal-full .price-produto sub {
+    font-size: 14px;
 }
 
 .modal-full .dados-produto {
@@ -687,6 +699,11 @@ select.form-control {
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 0;
+}
+
+.title-ingredient-resumo {
+    color: var(--color-black);
+    font-size: 14px;
 }
 
 .price-produto-resumo {
