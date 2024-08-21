@@ -279,7 +279,7 @@ a.navbar-brand {
 }
 
 .card-item .title-produto {
-font-size:14px;
+font-size:16px;
     color: var(--color-black);
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -287,7 +287,7 @@ font-size:14px;
 }
 
 .card-item .description {
-    font-size: 12px;    
+    font-size: 14px;    
     color: var(--color-text);
     text-overflow: ellipsis;
     white-space: normal;
@@ -295,12 +295,12 @@ font-size:14px;
     width: auto;
     margin-bottom: 0px;
     text-align: center;
-    margin-top: 5px;
+    
 }
 
 .card-item .price-produto {
     color: var(--color-primary);
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .card-item .add-carrinho {
