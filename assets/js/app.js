@@ -631,9 +631,6 @@ cardapio.templates = {
                 <p class="title-produto-resumo">
                     <b>\${nome}</b>
                 </p>
-                <p class="title-ingredient-resumo">
-                    \${title}
-                </p>
                 <p class="price-produto-resumo">
                     <b>R$ \${preco}</b>
                 </p>
