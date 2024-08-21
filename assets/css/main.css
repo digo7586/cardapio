@@ -264,7 +264,13 @@ a.navbar-brand {
 }
 
 .card-item {
+    height: 440px;   
+}
+
+.card-item:hover {
+    background-color: var(--color-primary);
     height: 440px;
+    transition: all 1s ease;
 }
 
 .card-item .img-produto img {
@@ -276,19 +282,19 @@ a.navbar-brand {
     color: var(--color-black);
     text-overflow: ellipsis;
     white-space: nowrap;
-    
-    height: 40px;
     margin-bottom: 0px;
 }
 
 .card-item .description {
-    color: var(--color-black);
+    font-size: 14px;    
+    color: var(--color-text);
     text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow:hidden;
-    height: 80px;
-    width: 180px;
+    white-space: normal;
+    height: auto;
+    width: auto;
     margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .card-item .price-produto {
@@ -302,12 +308,6 @@ a.navbar-brand {
     height: 30px;
     justify-content: center;
     align-items: center;
-}
-
-.card-item .description {
-    font-size: 14px;
-    color: var(--color-black);
-    margin-bottom: 5px;
 }
 
 .btn-menos {
@@ -348,12 +348,11 @@ a.navbar-brand {
     margin-left: 15px;
 }
 
-.card-item:hover {
-    background-color: var(--color-primary);
-}
+
 
 
 .card-item:hover .add-carrinho {
+    transition: all 1s ease;
     display: flex;
 }
 
@@ -468,9 +467,10 @@ a.navbar-brand {
 
 .card-reserva {
     height: 320px;
-    width: 320px;
+    width: 330px;
     border-radius: 120px;
-    background-color: var(--color-primary);
+    background-image: url(../img/pizza4.png);
+    background-color: #37375848;
     position: absolute;
     right: 0;
     top: -20px;
