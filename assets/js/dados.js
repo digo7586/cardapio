@@ -3,7 +3,8 @@ var MENU = {
         {
             "id": "2-lou-malnatis-deep-dish-pizzas",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Lou Malnati's Pizza",
+            "name": "Calabresa",
+            "title": "Molho de tomate, mussarela, cebola, calabresa, catupiry, tomate, orégano e azeitonas",
             "dsc": "2 Lou Malnati's Deep Dish Pizzas",
             "price": 67.99
         },
