@@ -119,7 +119,7 @@
 
     .title-produto {
         margin-top: 0px!important;
-        height: 30px!important;
+        height: 35px!important;
         width: 100%;
         text-align: left!important;
     }
@@ -151,6 +151,7 @@ font-size: 12px;
         text-align: start;
         white-space: normal;
         height: auto;
+margin-top: 0px;
     }
 
     
