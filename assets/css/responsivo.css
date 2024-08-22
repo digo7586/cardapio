@@ -224,6 +224,10 @@ margin-top: 0px!important;
         display: grid;
     }
 
+p.title-produto-resumo {
+font-size:16px;
+}
+
     .modal-full .title-produto, .modal-full .price-produto {
         font-size: 16px!important;
     }
