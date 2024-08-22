@@ -282,7 +282,7 @@ a.navbar-brand {
 font-size:16px;
     color: var(--color-black);
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: wrap;
     margin-bottom: 0px;
 }
 
