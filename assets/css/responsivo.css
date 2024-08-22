@@ -109,7 +109,7 @@
     }
 
     .card-item:hover  {
-        height: 210px;
+        height: 220px;
         transition: all 1s ease;
     }
 
@@ -157,7 +157,7 @@ margin-top: 0px!important;
     
     .price-produto {
         margin-bottom: 0px!important;
-        margin-top: 0px!important;
+        margin-top: 5px!important;
         font-size: 18px!important;
     }
 
