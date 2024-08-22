@@ -268,7 +268,7 @@ a.navbar-brand {
 }
 
 .card-item:hover {
-        background-color: var(--color-secondary);
+        background-color: #facc4f;
     height: 470px;
     transition: all 1s ease;
 }
