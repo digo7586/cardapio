@@ -61,7 +61,7 @@ a.navbar-brand {
 }
 
 .btn-white.active, .btn-white:hover {
-    background-color: var(--color-primary);
+    background-color: #facc4f;
 }
 
 .btn-icon {
