@@ -984,19 +984,17 @@ var MENU = {
     "pizzasCombo": [
         {
             "id": "Combo1",
-            "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
+            "img": "assets/img/cardapio/pizzas/brooklyn-pizza-choose-your-own-5-pack.edc4f476a75207d0af840ce6f225f2b3.jpg",
             "name": "Combo 1",
-            "title": "8 pedaços + 4 pedaços + 1 Refri. Promocional",
-            "dsc": "2 Lou Malnati's Deep Dish Pizzas",
-            "price": 67.99
+            "title": "8 Pdç + 4 Pdç + 1 Refri. Promocional.",
+            "price": 70.00
         },
         {
             "id": "Combo2",
-            "img": "assets/img/cardapio/pizzas/choose-your-own-thin-crust-pizza-4-pack.b928a2008eab50c65dc87e59b5952190.jpg",
+            "img": "assets/img/cardapio/pizzas/brooklyn-pizza-choose-your-own-5-pack.edc4f476a75207d0af840ce6f225f2b3.jpg",
             "name": "Combo 2",
-            "title": "8 pedaços + 4 pedaços + 1 Refri. Promocional",
-            "dsc": "Choose Your Own Thin Crust Pizza - 4 Pack",
-            "price": 54
+            "title": "8 Pdç + 8 Pdç + 1 Refri. Promocional.",
+            "price": 80.00
         },
        
     ],
