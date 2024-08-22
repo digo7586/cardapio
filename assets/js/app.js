@@ -663,7 +663,7 @@ cardapio.templates = {
             </div>
             <div class="dados-produto">
             
-                <p class="title-produto"><b> \${nome}</b>\${dsc}</p>
+                <p class="title-produto"><b> \${nome}</b> \${dsc}</p>
                 <p class="price-produto"><b>R$ \${preco}</b><sub>un</sub></p>
             </div>
             <div class="add-carrinho">
