@@ -109,7 +109,7 @@
     }
 
     .card-item:hover  {
-        height: 230px;
+        height: 200px;
         transition: all 1s ease;
     }
 
