@@ -224,6 +224,16 @@ margin-top: 0px!important;
         display: grid;
     }
 
+.title-produto-resumo {
+    color: var(--color-black);
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+
 .modal-full .title-produto-resumo {
 font-size:16px;
 }
