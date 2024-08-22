@@ -28,6 +28,24 @@ cardapio.metodos = {
     obterItensCardapio: (categoria = 'pizzas8', vermais = false) => {
 
         var filtro = MENU[categoria];
+
+        // atualiza o texto conforme a categoria do menu escolhida
+
+        let promoText = '';
+
+        if (categoria === 'pizzasCombo') {
+            promoText = 'Promoção válida para Segunda e Quinta-feira. Sabores salgados: Frango c/ Catupiry, Brócolis, Baiana, Calabresa, Milho e Tradicional.<br>Doces: Brigadeiro, Prestígio, Chocobana e Banana Nevada.';
+        } else if (['pizzas4', 'pizzas8', 'pizzas12'].includes(categoria)) {
+            promoText = 'Todas as pizzas salgadas vão com borda de catupiry ou cheddar.';
+        } else if (categoria === 'pizzasSweet') {
+            promoText = 'Todas as pizzas doces vão com borda de chocolate.';
+        }
+        
+        $("#promoText").html(promoText);
+        
+        
+
+
         console.log(filtro);
 
         if (!vermais) {
@@ -65,55 +83,6 @@ cardapio.metodos = {
     }, 
 
 
-
-  /*   // obtem a lista de itens do cardápio
-obterItensCardapio: (categoria = 'pizzas8', vermais = false) => {
-
-    var filtro = MENU[categoria];
-    console.log(filtro);
-
-    // Quantidade de itens exibidos inicialmente e após clicar em "ver mais"
-    const itensPorPagina = 8;
-    const itensVerMais = 4;
-
-    if (!vermais) {
-        $("#itensCardapio").html(''); // Limpa os itens atuais
-        $("#btnVerMais").removeClass('hidden'); // Mostra o botão "ver mais"
-    }
-
-    // Itera sobre os itens filtrados
-    $.each(filtro, (i, e) => {
-        let temp = cardapio.templates.item.replace(/\${img}/g, e.img)
-            .replace(/\${nome}/g, e.name)
-            .replace(/\${title}/g, e.title)
-            .replace(/\${dsc}/g, e.dsc)
-            .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
-            .replace(/\${id}/g, e.id);
-
-        // Exibe os itens adicionais quando "ver mais" é clicado
-        if (vermais && i >= itensPorPagina && i < itensPorPagina + itensVerMais) {
-            $("#itensCardapio").append(temp);
-        }
-
-        // Exibe os itens iniciais na primeira carga
-        if (!vermais && i < itensPorPagina) {
-            $("#itensCardapio").append(temp);
-        }
-    });
-
-    // Verifica se há mais itens para exibir após clicar em "ver mais"
-    if (filtro.length > itensPorPagina + itensVerMais) {
-        $("#btnVerMais").removeClass('hidden'); // Mostra o botão "ver mais"
-    } else {
-        $("#btnVerMais").addClass('hidden'); // Oculta o botão se não houver mais itens
-    }
-
-    // remove o ativo
-    $(".container-menu a").removeClass('active');
-
-    // seta o menu para ativo
-    $("#menu-" + categoria).addClass('active');
-}, */
 
 
     // clique no botão de ver mais
