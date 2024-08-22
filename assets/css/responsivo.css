@@ -1,29 +1,22 @@
-
 /* Desktop (col-lg) 992px+ */
-@media (min-width: 992px) {
-
-}
+@media (min-width: 992px) {}
 
 /* Desktop e Tablets (col-md) 768px a 991px */
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 /* Tablets (col-sm) 576px a 767px */
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
+@media (min-width: 576px) and (max-width: 767px) {}
 
 /* Tablets e Celulares (col) 0px a 767px */
 @media (max-width: 768px) {
 
     .no-mobile {
-        display: none!important;
+        display: none !important;
     }
 
     .col-one {
-        padding-left: 35px!important;
-        padding-right: 35px!important;
+        padding-left: 35px !important;
+        padding-right: 35px !important;
     }
 
     .navbar-toggler-icon {
@@ -62,7 +55,8 @@
         font-size: 18px;
     }
 
-    .btn-yellow, .btn-white {
+    .btn-yellow,
+    .btn-white {
         padding: 13px 23px;
         font-size: 18px;
     }
@@ -74,7 +68,7 @@
     }
 
     .btn-icon-left {
-        padding-left: 63px!important;
+        padding-left: 63px !important;
     }
 
     .title {
@@ -108,7 +102,7 @@
         align-items: start;
     }
 
-    .card-item:hover  {
+    .card-item:hover {
         height: 240px;
         transition: all 1s ease;
     }
@@ -118,10 +112,10 @@
     }
 
     .title-produto {
-        margin-top: 0px!important;
-        height: 30px!important;
+        margin-top: 0px !important;
+        height: 30px !important;
         width: 100%;
-        text-align: left!important;
+        text-align: left !important;
     }
 
     .card-item .title-produto {
@@ -136,12 +130,12 @@
         color: var(--color-black);
         text-overflow: ellipsis;
         white-space: nowrap;
-        overflow:hidden;
-        height: 80px;
-        width: 180px;
-padding-top:10px;
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+        padding-top: 10px;
         margin-bottom: 0px;
-font-size: 12px;
+        font-size: 12px;
         transition: height 1s ease, white-space 0.3s ease;
     }
 
@@ -150,15 +144,14 @@ font-size: 12px;
     .card-item:hover .description {
         text-align: start;
         white-space: normal;
-        height: auto;
-margin-top: 0px!important;
+        margin-top: 0px !important;
     }
 
-    
+
     .price-produto {
-        margin-bottom: 0px!important;
-        margin-top: 5px!important;
-        font-size: 18px!important;
+        margin-bottom: 0px !important;
+        margin-top: 5px !important;
+        font-size: 18px !important;
     }
 
     .modal-full .price-produto sub {
@@ -170,7 +163,7 @@ margin-top: 0px!important;
     }
 
     #itensCardapio .mb-5 {
-        margin-bottom: 15px!important;
+        margin-bottom: 15px !important;
     }
 
     .depoimentos {
@@ -224,22 +217,23 @@ margin-top: 0px!important;
         display: grid;
     }
 
-.title-produto-resumo {
-    color: var(--color-black);
-    font-size: 16px;
-    text-overflow: ellipsis;
-    white-space: wrap;
-    overflow: hidden;
-    margin-bottom: 0;
-}
+    .title-produto-resumo {
+        color: var(--color-black);
+        font-size: 16px;
+        text-overflow: ellipsis;
+        white-space: wrap;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
 
 
-.modal-full .title-produto-resumo {
-font-size:16px;
-}
+    .modal-full .title-produto-resumo {
+        font-size: 16px;
+    }
 
-    .modal-full .title-produto, .modal-full .price-produto {
-        font-size: 16px!important;
+    .modal-full .title-produto,
+    .modal-full .price-produto {
+        font-size: 16px !important;
     }
 
     .modal-full .add-numero-itens {
