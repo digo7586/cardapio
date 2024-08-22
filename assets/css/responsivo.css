@@ -139,7 +139,7 @@
         overflow:hidden;
         height: 80px;
         width: 180px;
-margin-top:10px;
+padding-top:10px;
         margin-bottom: 0px;
 font-size: 12px;
         transition: height 1s ease, white-space 0.3s ease;
