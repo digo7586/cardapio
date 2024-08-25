@@ -901,6 +901,7 @@ var MENU = {
             "id": "2-lou-malnatis-deep-dish-pizzas",
             "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
             "name": "Lou Malnati's Pizza",
+  "title": "Chocolate com morango e leite condensado .",
             "dsc": "2 Lou Malnati's Deep Dish Pizzas",
             "price": 67.99
         },
