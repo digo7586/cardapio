@@ -145,7 +145,7 @@ a.navbar-brand {
     height: 450px;
     width: 450px;
     border-radius: 170px;
-    background-color: #f2b82d;
+    background-color: #F59E0C;
     position: absolute;
     right: 0;
     top: -50px;
@@ -252,7 +252,7 @@ a.navbar-brand {
 }
 
 .container-menu {
-    margin-bottom: 40px;
+    margin-bottom:10px;
 }
 
 .icone {
@@ -530,6 +530,30 @@ footer {
     overflow: auto;
     overflow-x: hidden;
 }
+
+/* Define a largura total do contêiner de entrega/retirada */
+.entrega-retirada {
+    width: 100%;
+    margin-bottom: 15px; /* Adiciona um espaço abaixo do contêiner */
+}
+
+/* Ajusta o layout quando em telas pequenas ou em colunas */
+@media (max-width: 768px) {
+    .entrega-retirada {
+        margin-bottom: 15px;
+    }
+}
+
+/* Ajusta os elementos filhos do contêiner de entrega/retirada */
+.entrega-retirada label {
+    margin-right: 20px; /* Espaçamento entre os labels */
+}
+
+/* Garantir que o campo de CEP comece abaixo do contêiner de entrega/retirada */
+.container-cep {
+    margin-top: 0; /* Remove a margem superior se houver */
+}
+
 
 .m-body::-webkit-scrollbar {
     width: 6px;
