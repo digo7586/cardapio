@@ -1303,7 +1303,7 @@ var MENU = {
         {
             "id": "suco-del-valle",
             "img": "assets/img/cardapio/suco.png",
-            "name": "Suco sabores Del Valle",
+            "name": "Suco Del Valle",
             "title": "Suco Del Valle com diversos sabores.",
             "dsc": "",
             "price": 6.00
@@ -1327,7 +1327,7 @@ var MENU = {
         {
             "id": "cerveja-skol-600ml",
             "img": "assets/img/cardapio/skol.png",
-            "name": "Cerveja Skol/Antarctica 600ml",
+            "name": "Skol/Antarctica 600ml",
             "title": "Cerveja Skol ou Antarctica 600ml",
             "dsc": "",
             "price": 12.00
@@ -1335,7 +1335,7 @@ var MENU = {
         {
             "id": "cerveja-original-600ml",
             "img": "assets/img/cardapio/original.png",
-            "name": "Cerveja Original/Heineken 600ml",
+            "name": "Original/Heineken 600ml",
             "title": "Cerveja Original ou Heineken 600ml",
             "dsc": "",
             "price": 15.00
