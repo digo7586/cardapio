@@ -896,90 +896,294 @@ var MENU = {
         }
         
     ],
-    "pizzasSweet": [
+    "pizzasSweetP": [
         {
-            "id": "2-lou-malnatis-deep-dish-pizzas",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Lou Malnati's Pizza",
-  "title": "Chocolate com morango e leite condensado .",
-            "dsc": "2 Lou Malnati's Deep Dish Pizzas",
-            "price": 67.99
+            "id": "36-banana-nevada",
+            "img": "assets/img/cardapio/pizzas/banana-nevada.webp",
+            "name": "Banana Nevada",
+            "title": "Banana, chocolate branco, canela e açúcar.",
+            "price":  37.00,
+               
+            
         },
         {
-            "id": "23699-choose-your-own-thin-crust-pizza-4-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Bartolini's",
-            "dsc": "Choose Your Own Thin Crust Pizza - 4 Pack",
-            "price": 54
+            "id": "37-brigadeiro",
+            "img": "assets/img/cardapio/pizzas/brigadeiro.webp",
+            "name": "Brigadeiro",
+            "title": "Chocolate com granulado.",
+            "price": 
+                 37.00,
+                
         },
         {
-            "id": "choose-your-own-new-haven-style-pizza-6-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Zuppardi's Apizza",
-            "dsc": "New Haven-Style Pizza - 6 Pack (Choose Your Own)",
-            "price": 43
+            "id": "38-chocobana",
+            "img": "assets/img/cardapio/pizzas/chocobana.webp",
+            "name": "Chocobana",
+            "title": "Leite condensado, mussarela, banana e chocolate.",
+            "price": 
+                 37.00,
+                
         },
         {
-            "id": "6-lou-malnatis-deep-dish-pizzas",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "dsc": "6 Lou Malnati's Deep Dish Pizzas",
-            "price": 70
+            "id": "39-confete",
+            "img": "assets/img/cardapio/pizzas/confete.webp",
+            "name": "Confete",
+            "title": "Chocolate com confete.",
+            "price": 39.00,
+                
         },
         {
-            "id": "wood-fired-pizzas-best-seller-4-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Pizzeria Bianco",
-            "dsc": "Wood Fired Pizzas Best Seller - 4 Pack",
-            "price": 35
+            "id": "40-dois-amores",
+            "img": "assets/img/cardapio/pizzas/dois-amores.webp",
+            "name": "Dois Amores",
+            "title": "Chocolate branco e chocolate preto.",
+            "price":37.00,
+                
+            
         },
         {
-            "id": "236991-choose-your-own-deep-dish-pizza-3-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Bartolini's",
-            "dsc": "Choose Your Own Deep Dish Pizza - 3 Pack",
-            "price": 58
+            "id": "41-napolitana",
+            "img": "assets/img/cardapio/pizzas/napolitana.webp",
+            "name": "Napolitana",
+            "title": "Ninho, creme de morango e chocolate ao leite.",
+            "price": 39.00,
+                
         },
         {
-            "id": "choose-your-own-detroit-style-pizza-3-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Emmy Squared",
-            "dsc": "Detroit-Style Pizza - Choose Your Own 3 Pack",
-            "price": 65
+            "id": "42-leite-ninho",
+            "img": "assets/img/cardapio/pizzas/leite-ninho.webp",
+            "name": "Leite Ninho",
+            "title": "Chocolate com creme de leite ninho.",
+            "price": 39.00,
+                
         },
         {
-            "id": "brooklyn-pizza-choose-your-own-5-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Paesan's Pizza",
-            "dsc": "Brooklyn Pizza - Choose Your Own 5 Pack",
-            "price": 69
+            "id": "43-ouro-branco",
+            "img": "assets/img/cardapio/pizzas/ouro-branco.webp",
+            "name": "Ouro Branco",
+            "title": "Chocolate com bombom Ouro Branco.",
+            "price":  39.00,
+                
+            
         },
         {
-            "id": "choose-your-own-chicago-deep-dish-pizza-4-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "My Pi Pizza",
-            "dsc": "Chicago Deep Dish Pizza - 4 Pack",
-            "price": 42
+            "id": "44-prestigio",
+            "img": "assets/img/cardapio/pizzas/prestigio.webp",
+            "name": "Prestígio",
+            "title": "Chocolate com coco ralado.",
+            "price":  37.00,
+                
         },
         {
-            "id": "4-lou-malnatis-deep-dish-pizzas",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Lou Malnati's Pizza",
-            "dsc": "4 Lou Malnati's Deep Dish Pizzas",
-            "price": 67
+            "id": "45-morango",
+            "img": "assets/img/cardapio/pizzas/morango.webp",
+            "name": "Morango",
+            "title": "Chocolate e morango fruta.",
+            "price":  39.00,
+                
+            
         },
         {
-            "id": "tonys-custom-pizza-3-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "Tony's Pizza Napoletana",
-            "dsc": "Choose Your Own Pizza - 3 Pack",
-            "price": 49
+            "id": "46-surpresa-uva",
+            "img": "assets/img/cardapio/pizzas/surpresa-uva.webp",
+            "name": "Surpresa de Uva Novidade",
+            "title": "Delicioso chocolate ao leite, uvas verdes sem caroço e um maravilhoso creme de ninho.",
+            "price": 39.00,
+                
         },
         {
-            "id": "plain-thin-crust-pizza-4-pack",
-            "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
-            "name": "The Columbia Inn",
-            "dsc": "Plain Thin Crust Pizza - 4 Pack",
-            "price": 79
+            "id": "47-abacaxi-nevado",
+            "img": "assets/img/cardapio/pizzas/abacaxi-nevado.webp",
+            "name": "Abacaxi Nevado Novidade",
+            "title": "Delicioso abacaxi com chocolate branco e uma pitada de canela.",
+            "price": 39.00,
+                
+        }
+    ],
+    "pizzasSweetM": [
+        {
+            "id": "36-banana-nevada",
+            "img": "assets/img/cardapio/pizzas/banana-nevada.webp",
+            "name": "Banana Nevada",
+            "title": "Banana, chocolate branco, canela e açúcar.",
+            "price":
+                 52.00,
+               
+        },
+        {
+            "id": "37-brigadeiro",
+            "img": "assets/img/cardapio/pizzas/brigadeiro.webp",
+            "name": "Brigadeiro",
+            "title": "Chocolate com granulado.",
+            "price":  52.00,
+               
+        },
+        {
+            "id": "38-chocobana",
+            "img": "assets/img/cardapio/pizzas/chocobana.webp",
+            "name": "Chocobana",
+            "title": "Leite condensado, mussarela, banana e chocolate.",
+            "price":  52.00,
+               
+        },
+        {
+            "id": "39-confete",
+            "img": "assets/img/cardapio/pizzas/confete.webp",
+            "name": "Confete",
+            "title": "Chocolate com confete.",
+            "price": 54.00,
+                
+        },
+        {
+            "id": "40-dois-amores",
+            "img": "assets/img/cardapio/pizzas/dois-amores.webp",
+            "name": "Dois Amores",
+            "title": "Chocolate branco e chocolate preto.",
+            "price":52.00,
+                
+        },
+        {
+            "id": "41-napolitana",
+            "img": "assets/img/cardapio/pizzas/napolitana.webp",
+            "name": "Napolitana",
+            "title": "Ninho, creme de morango e chocolate ao leite.",
+            "price": 54.00,
+                
+        },
+        {
+            "id": "42-leite-ninho",
+            "img": "assets/img/cardapio/pizzas/leite-ninho.webp",
+            "name": "Leite Ninho",
+            "title": "Chocolate com creme de leite ninho.",
+            "price": 54.00,
+                
+        },
+        {
+            "id": "43-ouro-branco",
+            "img": "assets/img/cardapio/pizzas/ouro-branco.webp",
+            "name": "Ouro Branco",
+            "title": "Chocolate com bombom Ouro Branco.",
+            "price": 54.00,
+               
+        },
+        {
+            "id": "44-prestigio",
+            "img": "assets/img/cardapio/pizzas/prestigio.webp",
+            "name": "Prestígio",
+            "title": "Chocolate com coco ralado.",
+            "price": 52.00,
+                
+        },
+        {
+            "id": "45-morango",
+            "img": "assets/img/cardapio/pizzas/morango.webp",
+            "name": "Morango",
+            "title": "Chocolate e morango fruta.",
+            "price":54.00,
+               
+        },
+        {
+            "id": "46-surpresa-uva",
+            "img": "assets/img/cardapio/pizzas/surpresa-uva.webp",
+            "name": "Surpresa de Uva Novidade",
+            "title": "Delicioso chocolate ao leite, uvas verdes sem caroço e um maravilhoso creme de ninho.",
+            "price": 54.00,
+                
+        },
+        {
+            "id": "47-abacaxi-nevado",
+            "img": "assets/img/cardapio/pizzas/abacaxi-nevado.webp",
+            "name": "Abacaxi Nevado Novidade",
+            "title": "Delicioso abacaxi com chocolate branco e uma pitada de canela.",
+            "price": 54.00,
+               
+        }
+    ],
+    "pizzasSweetG": [
+        {
+            "id": "36-banana-nevada",
+            "img": "assets/img/cardapio/pizzas/banana-nevada.webp",
+            "name": "Banana Nevada",
+            "title": "Banana, chocolate branco, canela e açúcar.",
+            "price": 66.00
+           
+        },
+        {
+            "id": "37-brigadeiro",
+            "img": "assets/img/cardapio/pizzas/brigadeiro.webp",
+            "name": "Brigadeiro",
+            "title": "Chocolate com granulado.",
+            "price":66.00
+        },
+        {
+            "id": "38-chocobana",
+            "img": "assets/img/cardapio/pizzas/chocobana.webp",
+            "name": "Chocobana",
+            "title": "Leite condensado, mussarela, banana e chocolate.",
+            "price":  66.00
+        },
+        {
+            "id": "39-confete",
+            "img": "assets/img/cardapio/pizzas/confete.webp",
+            "name": "Confete",
+            "title": "Chocolate com confete.",
+            "price": 68.00
+        },
+        {
+            "id": "40-dois-amores",
+            "img": "assets/img/cardapio/pizzas/dois-amores.webp",
+            "name": "Dois Amores",
+            "title": "Chocolate branco e chocolate preto.",
+            "price":  66.00
+        },
+        {
+            "id": "41-napolitana",
+            "img": "assets/img/cardapio/pizzas/napolitana.webp",
+            "name": "Napolitana",
+            "title": "Ninho, creme de morango e chocolate ao leite.",
+            "price": 68.00
+        },
+        {
+            "id": "42-leite-ninho",
+            "img": "assets/img/cardapio/pizzas/leite-ninho.webp",
+            "name": "Leite Ninho",
+            "title": "Chocolate com creme de leite ninho.",
+            "price": 68.00
+        },
+        {
+            "id": "43-ouro-branco",
+            "img": "assets/img/cardapio/pizzas/ouro-branco.webp",
+            "name": "Ouro Branco",
+            "title": "Chocolate com bombom Ouro Branco.",
+            "price": 68.00
+        },
+        {
+            "id": "44-prestigio",
+            "img": "assets/img/cardapio/pizzas/prestigio.webp",
+            "name": "Prestígio",
+            "title": "Chocolate com coco ralado.",
+            "price": 66.00
+        },
+        {
+            "id": "45-morango",
+            "img": "assets/img/cardapio/pizzas/morango.webp",
+            "name": "Morango",
+            "title": "Chocolate e morango fruta.",
+            "price": 68.00
+        },
+        {
+            "id": "46-surpresa-uva",
+            "img": "assets/img/cardapio/pizzas/surpresa-uva.webp",
+            "name": "Surpresa de Uva Novidade",
+            "title": "Delicioso chocolate ao leite, uvas verdes sem caroço e um maravilhoso creme de ninho.",
+            "price": 68.00
+        },
+        {
+            "id": "47-abacaxi-nevado",
+            "img": "assets/img/cardapio/pizzas/abacaxi-nevado.webp",
+            "name": "Abacaxi Nevado Novidade",
+            "title": "Delicioso abacaxi com chocolate branco e uma pitada de canela.",
+            "price":68.00
         }
     ],
     "pizzasCombo": [
@@ -1001,174 +1205,105 @@ var MENU = {
     ],
     "sobremesas": [
         {
-            "id": "15259-german-chocolate-killer-brownie-tin-pack",
-            "img": "assets/img/cardapio/sobremesas/german-chocolate-killer-brownie-tin-pack.5ebc34160f28767a9d94c4da2e04c4b9.jpg",
-            "name": "Killer Brownie®",
-            "dsc": "German Chocolate Killer Brownie®",
-            "price": 39.99
+            "id": "sorvete-taca",
+            "img": "assets/img/cardapio/sobremesas/sorve.png",
+            "name": "Sorvete Taça",
+            "title": "Consulte sabores.",
+            "price": 15.00
         },
         {
-            "id": "jacques-world-famous-chocolate-chip-cookies",
-            "img": "assets/img/cardapio/sobremesas/jacques-world-famous-chocolate-chip-cookies-6-pack.2217a14c443602493bba88aa9335319a.jpg",
-            "name": "Jacques Torres Chocolate",
-            "dsc": "Jacques' World Famous Chocolate Chip Cookies - 6 Pack",
-            "price": 39.95
+            "id": "milk-shake",
+            "img": "assets/img/cardapio/sobremesas/milk.png",
+            "name": "Milk Shake",
+            "title": "Sabores: Ovomaltine e Morango.",
+            "price": 20.00
         },
         {
-            "id": "luigis-original-cannoli-pie",
-            "img": "assets/img/cardapio/sobremesas/original-cannoli-pie.4cb5b9ba82f57b69b90765fd9f07aa1a.jpg",
-            "name": "The Cannoli Pie Company",
-            "dsc": "Original Cannoli Pie",
-            "price": 69
-        },
-        {
-            "id": "sea-salted-caramel-swirl-cheesecake",
-            "img": "assets/img/cardapio/sobremesas/sea-salted-caramel-swirl-cheesecake.e2825335433fb7a272a5d77649a6849e.jpg",
-            "name": "Cotton Blues Cheesecake Company",
-            "dsc": "Sea-Salted Caramel Swirl Cheesecake",
-            "price": 65
-        },
-        {
-            "id": "brooklyn-blackout-cookie-brownie-combo-pack-2-tins",
-            "img": "assets/img/cardapio/sobremesas/brooklyn-blackout-cookie-brownie-combo-pack-2-tins.d8805325baf6b23b4f01d119dc4531a7.jpg",
-            "name": "Brooklyn Blackout Company",
-            "dsc": "Brooklyn Blackout Cookie + Brownie Combo Pack - 2 Tins",
-            "price": 89
-        },
-        {
-            "id": "best-seller-cupcake-dozen",
-            "img": "assets/img/cardapio/sobremesas/best-seller-cupcake-dozen.f93b21993f6a2da11c975d45b9b0d08f.jpg",
-            "name": "Crave Cupcakes",
-            "dsc": "Best Seller Cupcake Dozen",
-            "price": 89
-        },
-        {
-            "id": "choose-your-own-ice-cream-donuts-6-pack",
-            "img": "assets/img/cardapio/sobremesas/choose-your-own-ice-cream-donuts-6-pack.24d0b44765a7c54237fcd7ea9d9d8093.jpg",
-            "name": "Elegant Desserts",
-            "dsc": "Choose Your Own Ice Cream Donuts - 6 Pack",
-            "price": 69
-        },
-        {
-            "id": "17481-jewish-dessert-3-pack",
-            "img": "assets/img/cardapio/sobremesas/jewish-classics-dessert-pack.7d4b76630f2fe75dcb7bbcf2501b7390.jpg",
-            "name": "Ess-a-Bagel",
-            "dsc": "Jewish Classics Dessert Pack",
-            "price": 89.95
-        },
-        {
-            "id": "dessert-bar-care-package",
-            "img": "assets/img/cardapio/sobremesas/dessert-bar-care-package.324aa28fe98c9dc67b75aac43376902e.jpg",
-            "name": "Bread and Roses Bakery",
-            "dsc": "Dessert Bar Care Package",
-            "price": 65
-        },
-        {
-            "id": "donut-cookies-12-pack",
-            "img": "assets/img/cardapio/sobremesas/donut-cookies-12-pack.46f42c61c4a79fd2051a99b2f23e890e.jpg",
-            "name": "Stan's Donuts",
-            "dsc": "Donut Cookies - 12 Pack",
-            "price": 49
-        },
-        {
-            "id": "gulab-jamun-ice-cream-cakes-2-pack",
-            "img": "assets/img/cardapio/sobremesas/gulab-jamun-ice-cream-cakes-2-pack.c45b4d0750ad22d741f84dc1f26d20e7.jpg",
-            "name": "Malai Ice Cream",
-            "dsc": "Gulab Jamun Ice Cream Cakes - 2 Pack",
-            "price": 79
-        },
-        {
-            "id": "jacques-world-famous-chocolate-chip-cookies-12-pack",
-            "img": "assets/img/cardapio/sobremesas/jacques-world-famous-chocolate-chip-cookies-12-pack.3b373bdd67cd25084182c21499f675d1.jpg",
-            "name": "Jacques Torres Chocolate",
-            "dsc": "Jacques' World Famous Chocolate Chip Cookies - 12 Pack",
-            "price": 69.95
+            "id": "acai-taca",
+            "img": "assets/img/cardapio/sobremesas/acai.png",
+            "name": "Açaí Taça",
+            "title": "A taça vai com dois acompanhamentos grátis. Acompanhamentos adicionais R$ 3,00 cada.",
+           
+            "price": 15.00
         }
     ],
     "bebidas": [
         {
-            "id": "hong-kong-boba-tea-kit-for-6",
-            "img": "assets/img/cardapio/bebidas/hong-kong-boba-tea-kit-for-6.63841de36d8e5edfafa13023fc303285.jpg",
-            "name": "New Territories",
-            "dsc": "Hong Kong Boba Tea Kit for 6",
-            "price": 59
+            "id": "coca-cola-2l",
+            "img": "assets/img/cardapio/bebidas/coca-cola-2l.webp",
+            "name": "Coca-Cola 2L",
+            "title": "Coca-Cola 2 Litros",
+            "price": 15.00
         },
         {
-            "id": "guys-caliente-margaritas-for-12",
-            "img": "assets/img/cardapio/bebidas/guys-caliente-margaritas-for-12.ca8c6bc06b8f1039549385ffcebc749d.jpg",
-            "name": "Guy Fieri",
-            "dsc": "Guy's Caliente Margaritas for 12",
-            "price": 69
+            "id": "xereta-2l",
+            "img": "assets/img/cardapio/bebidas/xereta-2l.webp",
+            "name": "Xereta 2L",
+            "title": "Xereta 2 Litros",
+            "price": 8.00
         },
         {
-            "id": "woodford-reserve-mint-julep-syrup",
-            "img": "assets/img/cardapio/bebidas/woodford-reserve-mint-julep-syrup.ef523ac7cbae5f4aba6b058207f490d2.jpg",
-            "name": "Woodford Reserve",
-            "dsc": "Woodford Reserve Mint Julep Syrup",
-            "price": 39
+            "id": "agua-sem-gas",
+            "img": "assets/img/cardapio/bebidas/agua-sem-gas.webp",
+            "name": "Água sem gás",
+            "title": "Água Mineral Sem Gás",
+            "price": 3.00
         },
         {
-            "id": "new-orleans-hurricane-mix",
-            "img": "assets/img/cardapio/bebidas/new-orleans-hurricane-mix.4613584fc65cb0787024dd24d2a8f4b3.jpg",
-            "name": "Franco's Hurricane Mix",
-            "dsc": "New Orleans Hurricane Mix",
-            "price": 39
+            "id": "agua-com-gas",
+            "img": "assets/img/cardapio/bebidas/agua-com-gas.webp",
+            "name": "Água com gás",
+            "title": "Água Mineral com Gás",
+            "price": 4.00
         },
         {
-            "id": "margarita-mix",
-            "img": "assets/img/cardapio/bebidas/margarita-mix.bd48a000d589d3147b14790af3c33fcd.jpg",
-            "name": "Johnny Sanchez",
-            "dsc": "Margarita Mix",
-            "price": 59
+            "id": "suco-del-valle",
+            "img": "assets/img/cardapio/bebidas/suco-del-valle.webp",
+            "name": "Suco sabores Del Valle",
+            "title": "Suco Del Valle com diversos sabores.",
+            "price": 6.00
         },
         {
-            "id": "woodford-reserve-mint-julep-syrup-2-pack",
-            "img": "assets/img/cardapio/bebidas/woodford-reserve-mint-julep-syrup-2-pack.0ac76063f151988113cbaabd0eaa829f.jpg",
-            "name": "Woodford Reserve",
-            "dsc": "Woodford Reserve Mint Julep Syrup - 2 Pack",
-            "price": 59
+            "id": "refrigerante-lata",
+            "img": "assets/img/cardapio/bebidas/refrigerante-lata.webp",
+            "name": "Refrigerante Lata",
+            "title": "Refrigerante em Lata. Consulte sabores.",
+            "price": 6.00
         },
         {
-            "id": "unicorn-parade-milkshake-kit-for-8",
-            "img": "assets/img/cardapio/bebidas/unicorn-parade-milkshake-kit-for-2.9052d04c1cf25b29442048bd3e535f21.jpg",
-            "name": "New Territories",
-            "dsc": "Unicorn Parade Milkshake Kit for 8",
-            "price": 109
+            "id": "cervejas-long-neck",
+            "img": "assets/img/cardapio/bebidas/cervejas-long-neck.webp",
+            "name": "Cervejas Long Neck",
+            "title": "Budweiser, Heineken e Corona",
+            "price": 9.00
         },
         {
-            "id": "chickpea-chiller-kit-for-6",
-            "img": "assets/img/cardapio/bebidas/chickpea-chiller-kit-for-6.4310765c71ba524b5462ea9330d32446.jpg",
-            "name": "The Hummus & Pita Co.",
-            "dsc": "Chickpea Chiller Kit for 6",
-            "price": 89
+            "id": "cerveja-skol-600ml",
+            "img": "assets/img/cardapio/bebidas/cerveja-skol-600ml.webp",
+            "name": "Cerveja Skol/Antarctica 600ml",
+            "title": "Cerveja Skol ou Antarctica 600ml",
+            "price": 12.00
         },
         {
-            "id": "15194-old-honey-barn-mint-julep-mixer-200ml",
-            "img": "assets/img/cardapio/bebidas/old-honey-barn-mint-julep-mixer-200ml.e0b131d6d9b69963706b43fd4334ab74.jpg",
-            "name": "Old Honey Barn Mint Julep",
-            "dsc": "Old Honey Barn Mint Julep Mixer - 200ml Flask",
-            "price": 25
+            "id": "cerveja-original-600ml",
+            "img": "assets/img/cardapio/bebidas/cerveja-original-600ml.webp",
+            "name": "Cerveja Original/Heineken 600ml",
+            "title": "Cerveja Original ou Heineken 600ml",
+            "price": 15.00
         },
         {
-            "id": "kentucky-derby-mint-julep-gift-set",
-            "img": "assets/img/cardapio/bebidas/kentucky-derby-mint-julep-gift-set.79720eda4e9c8e3fcf9ecb5c79827f2c.jpg",
-            "name": "Woodford Reserve",
-            "dsc": "Kentucky Derby Mint Julep Gift Set",
-            "price": 59.95
+            "id": "taca-de-vinho",
+            "img": "assets/img/cardapio/bebidas/taca-de-vinho.webp",
+            "name": "Taça de Vinho",
+            "title": "Taça de Vinho",
+            "price": 10.00
         },
         {
-            "id": "002-charleston-bloody-mary-mix-weekender-bold-and-spicy",
-            "img": "assets/img/cardapio/bebidas/weekender-charleston-bloody-mary-mix-bold-and-spicy.c372868c9937e407a299a22001e210e2.jpg",
-            "name": "Charleston Beverage Company",
-            "dsc": "Weekender | Charleston Bloody Mary Mix Bold & Spicy",
-            "price": 39.95
-        },
-        {
-            "id": "nola-cold-brew-concentrate-bag-in-box",
-            "img": "assets/img/cardapio/bebidas/nola-cold-brew-concentrate-bag-in-box.3df6fde8bd83f29235565984ae8ed22b.jpg",
-            "name": "Grady's Cold Brew",
-            "dsc": "NOLA Cold Brew Concentrate Bag-in-Box",
-            "price": 40
+            "id": "caipirinha",
+            "img": "assets/img/cardapio/bebidas/caipirinha.webp",
+            "name": "Caipirinha",
+            "title": "Caipirinha",
+            "price": 12.00
         }
     ],
 
