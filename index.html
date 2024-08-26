@@ -459,18 +459,25 @@
 
                 </div>
 
-                <div id="localEntrega" class="row mr-0 ml-0 animated fadeIn hidden">
+                
 
 
-                    <div id="entregaRetirada" class="row mr-0 ml-0 animated fadeIn entrega-retirada">
+                    <div id="entregaRetirada" class="row mr-0 ml-0 animated fadeIn entrega-retirada  hidden">
                         <label>
-                            <input type="radio" name="entregaRetirada" value="retirada" id="retirada"> Retirada
+                            <input type="radio" name="entregaRetirada" value="retirada" id="retirada" onclick="mostrarNomeRetirada()"> Retirada
                         </label>
                         <label>
-                            <input type="radio" name="entregaRetirada" value="entrega" id="entrega"> Entrega
+                            <input type="radio" name="entregaRetirada" value="entrega" id="entrega" onclick="esconderNomeRetirada()"> Entrega
                         </label>
                     </div>
 
+                                        <!-- Campo de nome para retirada -->
+                    <div id="nomeRetirada" style="display: none;">
+                        <label for="nomeCliente">Nome para Retirada:</label>
+                        <input type="text" id="nomeCliente" name="nomeCliente">
+                    </div>
+
+                    <div id="localEntrega" class="row mr-0 ml-0 animated fadeIn hidden">
                     <div class="col-12 col-lg-4 col-md-4 col-sm-12">
                         <div class="form-group container-cep">
                             <label>CEP:</label>
@@ -553,8 +560,8 @@
                             </select>
                         </div>
                     </div>
-
-                </div>
+                    </div>
+                
 
 
                 <div id="resumoCarrinho" class="row mr-0 ml-0 animated fadeIn hidden">
