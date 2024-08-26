@@ -1270,7 +1270,7 @@ var MENU = {
     "bebidas": [
         {
             "id": "coca-cola-2l",
-            "img": "assets/img/cardapio/bebidas/coca-cola-2l.webp",
+            "img": "assets/img/cardapio/coca.png",
             "name": "Coca-Cola 2L",
             "title": "Coca-Cola 2 Litros",
             "dsc": "",
@@ -1278,15 +1278,15 @@ var MENU = {
         },
         {
             "id": "xereta-2l",
-            "img": "assets/img/cardapio/bebidas/xereta-2l.webp",
-            "name": "Xereta 2L",
+            "img": "assets/img/cardapio/xereta",
+           "name": "Xereta 2L",
             "title": "Xereta 2 Litros",
             "dsc": "",
             "price": 8.00
         },
         {
             "id": "agua-sem-gas",
-            "img": "assets/img/cardapio/bebidas/agua-sem-gas.webp",
+            "img": "assets/img/cardapio/água.png",
             "name": "Água sem gás",
             "title": "Água Mineral Sem Gás",
             "dsc": "",
@@ -1294,7 +1294,7 @@ var MENU = {
         },
         {
             "id": "agua-com-gas",
-            "img": "assets/img/cardapio/bebidas/agua-com-gas.webp",
+            "img": "assets/img/cardapio/agua.png",
             "name": "Água com gás",
             "title": "Água Mineral com Gás",
             "dsc": "",
@@ -1302,7 +1302,7 @@ var MENU = {
         },
         {
             "id": "suco-del-valle",
-            "img": "assets/img/cardapio/bebidas/suco-del-valle.webp",
+            "img": "assets/img/cardapio/suco.png",
             "name": "Suco sabores Del Valle",
             "title": "Suco Del Valle com diversos sabores.",
             "dsc": "",
@@ -1310,7 +1310,7 @@ var MENU = {
         },
         {
             "id": "refrigerante-lata",
-            "img": "assets/img/cardapio/bebidas/refrigerante-lata.webp",
+            "img": "assets/img/cardapio/refei.png",
             "name": "Refrigerante Lata",
             "title": "Refrigerante em Lata. Consulte sabores.",
             "dsc": "",
@@ -1318,7 +1318,7 @@ var MENU = {
         },
         {
             "id": "cervejas-long-neck",
-            "img": "assets/img/cardapio/bebidas/cervejas-long-neck.webp",
+            "img": "assets/img/cardapio/long neck.png",
             "name": "Cervejas Long Neck",
             "title": "Budweiser, Heineken e Corona",
             "dsc": "",
@@ -1326,7 +1326,7 @@ var MENU = {
         },
         {
             "id": "cerveja-skol-600ml",
-            "img": "assets/img/cardapio/bebidas/cerveja-skol-600ml.webp",
+            "img": "assets/img/cardapio/Skol.png",
             "name": "Cerveja Skol/Antarctica 600ml",
             "title": "Cerveja Skol ou Antarctica 600ml",
             "dsc": "",
@@ -1334,7 +1334,7 @@ var MENU = {
         },
         {
             "id": "cerveja-original-600ml",
-            "img": "assets/img/cardapio/bebidas/cerveja-original-600ml.webp",
+            "img": "assets/img/cardapio/original.png",
             "name": "Cerveja Original/Heineken 600ml",
             "title": "Cerveja Original ou Heineken 600ml",
             "dsc": "",
@@ -1342,7 +1342,7 @@ var MENU = {
         },
         {
             "id": "taca-de-vinho",
-            "img": "assets/img/cardapio/bebidas/taca-de-vinho.webp",
+            "img": "assets/img/cardapio/wine.png",
             "name": "Taça de Vinho",
             "title": "Taça de Vinho",
             "dsc": "",
