@@ -7,6 +7,16 @@ var cardapio = {};
 var MEU_CARRINHO = [];
 var MEU_ENDERECO = null;
 
+    const ENDERECO_PIZZARIA = {
+        endereco: 'Rua da Pizza',
+        numero: '8',
+        bairro: 'Centro',
+        cidade: 'Iracemápolis',
+        uf: 'SP',
+        cep: '13460-000',
+        complemento: ''
+    };
+
 var VALOR_CARRINHO = 0;
 var VALOR_ENTREGA = 5;
 
@@ -37,7 +47,7 @@ cardapio.metodos = {
             promoText = 'Promoção válida para Segunda e Quinta-feira. Sabores salgados: Frango c/ Catupiry, Brócolis, Baiana, Calabresa, Milho e Tradicional.<br>Doces: Brigadeiro, Prestígio, Chocobana e Banana Nevada.';
         } else if (['pizzas4', 'pizzas8', 'pizzas12'].includes(categoria)) {
             promoText = 'Todas as pizzas salgadas vão com borda de catupiry ou cheddar.';
-        } else if (categoria === 'pizzasSweet') {
+        } else if (['pizzasSweetP', 'pizzasSweetM', 'pizzasSweetG'].includes(categoria)) {
             promoText = 'Todas as pizzas doces vão com borda de chocolate.';
         }
         
@@ -211,7 +221,7 @@ cardapio.metodos = {
         }
         
         if (etapa == 2) {
-            $("#lblTituloEtapa").text('Endereço de entrega:');
+            $("#lblTituloEtapa").text('Entrega / Retirada:');
             $("#itensCarrinho").addClass('hidden');
             $("#localEntrega").removeClass('hidden');
             $("#resumoCarrinho").addClass('hidden');
@@ -364,13 +374,41 @@ cardapio.metodos = {
     carregarEndereco: () => {
 
         if (MEU_CARRINHO.length <= 0) {
-            cardapio.metodos.mensagem('Seu carrinho está vazio.')
+            cardapio.metodos.mensagem('Seu carrinho está vazio.');
             return;
-        } 
-
+        }
+    
+        // Carrega a etapa 2 do processo
         cardapio.metodos.carregarEtapa(2);
+    
+        // Função para adicionar ou remover a obrigatoriedade dos campos de endereço com base na seleção
+        const updateFieldRequirements = () => {
+            const retiradaRadio = document.getElementById('retirada');
+            const enderecoFields = [
+                document.getElementById('txtCEP'),
+                document.getElementById('txtEndereco'),
+                document.getElementById('txtBairro'),
+                document.getElementById('txtNumero'),
+                document.getElementById('txtCidade'),
+                document.getElementById('ddlUf')
+            ];
+    
+            if (retiradaRadio.checked) {
+                enderecoFields.forEach(field => field.removeAttribute('required'));
+            }
+        };
+    
+        // Adiciona eventos de mudança aos rádios após carregar a etapa 2
+        document.addEventListener('DOMContentLoaded', function() {
+            const retiradaRadio = document.getElementById('retirada');
+    
+            retiradaRadio.addEventListener('change', updateFieldRequirements);
 
+            // Inicializa os campos com base na seleção atual
+            updateFieldRequirements();
+        });
     },
+    
 
     // API ViaCEP
     buscarCep: () => {
@@ -419,9 +457,22 @@ cardapio.metodos = {
 
     },
 
-    // validação antes de prosseguir para a etapa 3
     resumoPedido: () => {
-
+        // Verifica se a opção 'Retirada' está selecionada
+        if (document.getElementById('retirada').checked) {
+            // Se 'Retirada' estiver selecionado, esconde o formulário de endereço
+            document.getElementById('localEntrega').classList.add('hidden');
+            $("#lblValorTotal").text(`R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}`);
+            // Define o endereço como um objeto vazio
+           MEU_ENDERECO = {}; 
+            cardapio.metodos.carregarEtapa(3);
+            cardapio.metodos.carregarResumo();
+            return;
+        } else {
+            // Se 'Entrega' estiver selecionado, mostra o formulário de endereço
+            document.getElementById('localEntrega').classList.remove('hidden');
+        }
+    
         let cep = $("#txtCEP").val().trim();
         let endereco = $("#txtEndereco").val().trim();
         let bairro = $("#txtBairro").val().trim();
@@ -429,43 +480,43 @@ cardapio.metodos = {
         let uf = $("#ddlUf").val().trim();
         let numero = $("#txtNumero").val().trim();
         let complemento = $("#txtComplemento").val().trim();
-
+    
         if (cep.length <= 0) {
             cardapio.metodos.mensagem('Informe o CEP, por favor.');
             $("#txtCEP").focus();
             return;
         }
-
+    
         if (endereco.length <= 0) {
             cardapio.metodos.mensagem('Informe o Endereço, por favor.');
             $("#txtEndereco").focus();
             return;
         }
-
+    
         if (bairro.length <= 0) {
             cardapio.metodos.mensagem('Informe o Bairro, por favor.');
             $("#txtBairro").focus();
             return;
         }
-
+    
         if (cidade.length <= 0) {
             cardapio.metodos.mensagem('Informe a Cidade, por favor.');
             $("#txtCidade").focus();
             return;
         }
-
+    
         if (uf == "-1") {
             cardapio.metodos.mensagem('Informe a UF, por favor.');
             $("#ddlUf").focus();
             return;
         }
-
+    
         if (numero.length <= 0) {
             cardapio.metodos.mensagem('Informe o Número, por favor.');
             $("#txtNumero").focus();
             return;
         }
-
+    
         MEU_ENDERECO = {
             cep: cep,
             endereco: endereco,
@@ -475,19 +526,19 @@ cardapio.metodos = {
             numero: numero,
             complemento: complemento
         }
+        
 
         cardapio.metodos.carregarEtapa(3);
         cardapio.metodos.carregarResumo();
-
     },
+    
 
-    // carrega a etapa de Resumo do pedido
+    // Carrega a etapa de Resumo do pedido
     carregarResumo: () => {
 
         $("#listaItensResumo").html('');
 
         $.each(MEU_CARRINHO, (i, e) => {
-
             let temp = cardapio.templates.itemResumo.replace(/\${img}/g, e.img)
                 .replace(/\${nome}/g, e.name)
                 .replace(/\${dsc}/g, e.dsc)
@@ -495,53 +546,116 @@ cardapio.metodos = {
                 .replace(/\${qntd}/g, e.qntd)
 
             $("#listaItensResumo").append(temp);
-
         });
 
-        $("#resumoEndereco").html(`${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`);
-        $("#cidadeEndereco").html(`${MEU_ENDERECO.cidade}-${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`);
+        const enderecoFields = [
+            document.getElementById('txtCEP'),
+            document.getElementById('txtEndereco'),
+            document.getElementById('txtBairro'),
+            document.getElementById('txtNumero'),
+            document.getElementById('txtCidade'),
+            document.getElementById('ddlUf'),
+            document.getElementById('txtComplemento')
+        ];
+
+        // Verifica se a opção 'Retirada' está selecionada
+        if (document.getElementById('retirada').checked) {
+            enderecoFields.forEach(field => field.value = '');
+            // Exibe o endereço da pizzaria
+            $("#resumoEndereco").html('Rua da pizza, n°8, Iracemápolis');
+            $("#cidadeEndereco").html('Iracemápolis-SP');
+            
+            // Atualiza o título para 'Endereço da Pizzaria'
+            $(".retiradas").html('<b>Endereço de retirada:</b>');
+
+             // Oculta o valor da entrega
+        $("#valorEntrega").hide();
+
+        // Atualiza o total sem o valor da entrega
+        $("#lblValorTotal").text(`R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}`);
+        
+
+            // Limpa o formulário de endereço
+            $("#txtCEP").val('');
+            $("#txtEndereco").val('');
+            $("#txtBairro").val('');
+            $("#txtNumero").val('');
+            $("#txtCidade").val('');
+            $("#ddlUf").val('-1');
+            $("#txtComplemento").val('');
+
+            // Oculta a seção de endereço do cliente
+            $("#resumoEndereco").show();
+            $("#cidadeEndereco").show();
+        } else {
+            // Exibe o endereço fornecido pelo cliente
+            $("#resumoEndereco").html(`${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`);
+            $("#cidadeEndereco").html(`${MEU_ENDERECO.cidade}-${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`);
+            
+            // Atualiza o título para 'Local da Entrega'
+            $(".retiradas").html('<b>Local da Entrega:</b>');
+            
+            // Mostra a seção de endereço do cliente
+            $("#resumoEndereco").show();
+            $("#cidadeEndereco").show();
+        }
 
         cardapio.metodos.finalizarPedido();
-
     },
+
 
     // Atualiza o link do botão do WhatsApp
     finalizarPedido: () => {
 
-        if (MEU_CARRINHO.length > 0 && MEU_ENDERECO != null) {
+    if (MEU_CARRINHO.length > 0) {
 
-            var texto = 'Olá! gostaria de fazer um pedido:';
-            texto += `\n*Itens do pedido:*\n\n\${itens}`;
+        var texto = 'Olá! Gostaria de fazer um pedido:';
+        texto += `\n*Itens do pedido:*\n\n\${itens}`;
+        
+        if (document.getElementById('retirada').checked) {
+            // Se 'Retirada' estiver selecionado, mostra o endereço da pizzaria
+            texto += '\n*Endereço de retirada:*';
+            texto += `\n${ENDERECO_PIZZARIA.endereco}, ${ENDERECO_PIZZARIA.numero}, ${ENDERECO_PIZZARIA.bairro}`;
+            texto += `\n${ENDERECO_PIZZARIA.cidade}-${ENDERECO_PIZZARIA.uf} / ${ENDERECO_PIZZARIA.cep} ${ENDERECO_PIZZARIA.complemento}`;
+            
+            // Total sem valor da entrega
+            texto += `\n\n*Total (sem entrega): R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}*`;
+        } else {
+            // Se 'Entrega' estiver selecionado, mostra o endereço do cliente
             texto += '\n*Endereço de entrega:*';
             texto += `\n${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`;
             texto += `\n${MEU_ENDERECO.cidade}-${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`;
+            
+            // Total com valor da entrega
             texto += `\n\n*Total (com entrega): R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}*`;
-
-            var itens = '';
-
-            $.each(MEU_CARRINHO, (i, e) => {
-
-                itens += `*${e.qntd}x* ${e.name} ....... R$ ${e.price.toFixed(2).replace('.', ',')} \n`;
-
-                // último item
-                if ((i + 1) == MEU_CARRINHO.length) {
-
-                    texto = texto.replace(/\${itens}/g, itens);
-
-                    // converte a URL
-                    let encode = encodeURI(texto);
-                    let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
-
-                    $("#btnEtapaResumo").attr('href', URL);
-
-                }
-
-            })
-
         }
 
-    },
+        var itens = '';
 
+        $.each(MEU_CARRINHO, (i, e) => {
+            itens += `*${e.qntd}x* ${e.name} ....... R$ ${e.price.toFixed(2).replace('.', ',')} \n`;
+
+            // Último item
+            if ((i + 1) == MEU_CARRINHO.length) {
+                texto = texto.replace(/\${itens}/g, itens);
+
+                // Converte a URL
+                let encode = encodeURI(texto);
+                let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
+
+
+                // Atualiza o botão com o link do WhatsApp
+                $("#btnEtapaResumo").attr('href', URL);
+               
+            }
+        });
+
+    }
+   
+
+},
+
+    
     // carrega o link do botão reserva
     carregarBotaoReserva: () => {
 
@@ -551,6 +665,17 @@ cardapio.metodos = {
         let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
 
         $("#btnReserva").attr('href', URL);
+
+    },
+
+    abrirWhatsapp: () => {
+
+        var texto = 'Olá! gostaria poderia me da uma informação';
+
+        let encode = encodeURI(texto);
+        let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
+
+        $("#btnzap").attr('href', URL);
 
     },
 
