@@ -1278,7 +1278,7 @@ var MENU = {
         },
         {
             "id": "xereta-2l",
-            "img": "assets/img/cardapio/xereta",
+            "img": "assets/img/cardapio/xereta.png",
            "name": "Xereta 2L",
             "title": "Xereta 2 Litros",
             "dsc": "",
@@ -1286,7 +1286,7 @@ var MENU = {
         },
         {
             "id": "agua-sem-gas",
-            "img": "assets/img/cardapio/água.png",
+            "img": "assets/img/cardapio/agua.png",
             "name": "Água sem gás",
             "title": "Água Mineral Sem Gás",
             "dsc": "",
@@ -1310,7 +1310,7 @@ var MENU = {
         },
         {
             "id": "refrigerante-lata",
-            "img": "assets/img/cardapio/refei.png",
+            "img": "assets/img/cardapio/refri.png",
             "name": "Refrigerante Lata",
             "title": "Refrigerante em Lata. Consulte sabores.",
             "dsc": "",
@@ -1318,7 +1318,7 @@ var MENU = {
         },
         {
             "id": "cervejas-long-neck",
-            "img": "assets/img/cardapio/long neck.png",
+            "img": "assets/img/cardapio/long Neck.png",
             "name": "Cervejas Long Neck",
             "title": "Budweiser, Heineken e Corona",
             "dsc": "",
@@ -1326,7 +1326,7 @@ var MENU = {
         },
         {
             "id": "cerveja-skol-600ml",
-            "img": "assets/img/cardapio/Skol.png",
+            "img": "assets/img/cardapio/skol.png",
             "name": "Cerveja Skol/Antarctica 600ml",
             "title": "Cerveja Skol ou Antarctica 600ml",
             "dsc": "",
