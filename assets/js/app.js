@@ -205,6 +205,7 @@ cardapio.metodos = {
         if (etapa == 1) {
             $("#lblTituloEtapa").text('Seu carrinho:');
             $("#itensCarrinho").removeClass('hidden');
+            $("#entregaRetirada").addClass('hidden');
             $("#localEntrega").addClass('hidden');
             $("#resumoCarrinho").addClass('hidden');
 
@@ -220,6 +221,7 @@ cardapio.metodos = {
         if (etapa == 2) {
             $("#lblTituloEtapa").text('Entrega / Retirada:');
             $("#itensCarrinho").addClass('hidden');
+            $("#entregaRetirada").removeClass('hidden');
             $("#localEntrega").removeClass('hidden');
             $("#resumoCarrinho").addClass('hidden');
 
@@ -236,6 +238,7 @@ cardapio.metodos = {
         if (etapa == 3) {
             $("#lblTituloEtapa").text('Resumo do pedido:');
             $("#itensCarrinho").addClass('hidden');
+            $("#entregaRetirada").addClass('hidden');
             $("#localEntrega").addClass('hidden');
             $("#resumoCarrinho").removeClass('hidden');
 
