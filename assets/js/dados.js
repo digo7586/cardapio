@@ -90,7 +90,7 @@ var MENU = {
         },
         {
             "id": "12-FrangoCatupiryP",
-            "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
+            "img": "assets/img/cardapio/pizzas/francoCcat.png",
             "name": "12 - Frango c/ Catupiry",
             "title": "Molho, frango, catupiry, tomate, azeitonas e orégano.",
             "dsc": "P 4 pdç",
@@ -389,7 +389,7 @@ var MENU = {
         },
         {
             "id": "12-FrangoCatupiryM",
-            "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
+            "img": "assets/img/cardapio/pizzas/francoCcat.png",
             "name": "12 - Frango c/ Catupiry",
             "title": "Molho, frango, catupiry, tomate, azeitonas e orégano.",
             "dsc": "M 8 pdç",
@@ -688,7 +688,7 @@ var MENU = {
         },
         {
             "id": "12-FrangoCatupiryG",
-            "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
+            "img": "assets/img/cardapio/pizzas/francoCcat.png",
             "name": "12 - Frango c/ Catupiry",
             "title": "Molho, frango, catupiry, tomate, azeitonas e orégano.",
             "dsc": " G 12 pdç",
