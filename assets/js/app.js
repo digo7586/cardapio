@@ -92,9 +92,6 @@ cardapio.metodos = {
 
     }, 
 
-
-
-
     // clique no botão de ver mais
     verMais: () => {
 
