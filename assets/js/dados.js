@@ -1350,7 +1350,7 @@ var MENU = {
         },
         {
             "id": "caipirinha",
-            "img": "assets/img/cardapio/bebidas/caipirinha.webp",
+            "img": "assets/img/cardapio/caipirinha.png",
             "name": "Caipirinha",
             "title": "Caipirinha",
             "dsc": "",
