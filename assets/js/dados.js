@@ -902,7 +902,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/pizzaDoce.webp",
             "name": "Banana Nevada",
             "title": "Banana, chocolate branco, canela e açúcar.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price":  37.00,
                
             
@@ -912,7 +912,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/brigadeiro.webp",
             "name": "Brigadeiro",
             "title": "Chocolate com granulado.",
-            "dsc": "",
+            "dsc": "P 4 pdç",
             "price": 
                  37.00,
                 
@@ -922,7 +922,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/chocobana.webp",
             "name": "Chocobana",
             "title": "Leite condensado, mussarela, banana e chocolate.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price": 
                  37.00,
                 
@@ -932,7 +932,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/confete.webp",
             "name": "Confete",
             "title": "Chocolate com confete.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price": 39.00,
                 
         },
@@ -941,7 +941,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/dois-amores.webp",
             "name": "Dois Amores",
             "title": "Chocolate branco e chocolate preto.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price":37.00,
                 
             
@@ -951,7 +951,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/napolitana.webp",
             "name": "Napolitana",
             "title": "Ninho, creme de morango e chocolate ao leite.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price": 39.00,
                 
         },
@@ -960,7 +960,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/leite-ninho.webp",
             "name": "Leite Ninho",
             "title": "Chocolate com creme de leite ninho.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price": 39.00,
                 
         },
@@ -969,7 +969,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/ouro-branco.webp",
             "name": "Ouro Branco",
             "title": "Chocolate com bombom Ouro Branco.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price":  39.00,
                 
             
@@ -979,7 +979,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/prestigio.webp",
             "name": "Prestígio",
             "title": "Chocolate com coco ralado.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price":  37.00,
                 
         },
@@ -988,7 +988,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/morango.webp",
             "name": "Morango",
             "title": "Chocolate e morango fruta.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price":  39.00,
                 
             
@@ -998,7 +998,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/surpresa-uva.webp",
             "name": "Surpresa de Uva Novidade",
             "title": "Delicioso chocolate ao leite, uvas verdes sem caroço e um maravilhoso creme de ninho.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price": 39.00,
                 
         },
@@ -1007,7 +1007,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/abacaxi-nevado.webp",
             "name": "Abacaxi Nevado Novidade",
             "title": "Delicioso abacaxi com chocolate branco e uma pitada de canela.",
-            "dsc": "",
+             "dsc": "P 4 pdç",
             "price": 39.00,
                 
         }
@@ -1018,7 +1018,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/banana-nevada.webp",
             "name": "Banana Nevada",
             "title": "Banana, chocolate branco, canela e açúcar.",
-            "dsc": "",
+            "dsc": "M 8 pdç",
             "price":
                  52.00,
                
@@ -1028,7 +1028,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/brigadeiro.webp",
             "name": "Brigadeiro",
             "title": "Chocolate com granulado.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price":  52.00,
                
         },
@@ -1037,7 +1037,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/chocobana.webp",
             "name": "Chocobana",
             "title": "Leite condensado, mussarela, banana e chocolate.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price":  52.00,
                
         },
@@ -1046,7 +1046,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/confete.webp",
             "name": "Confete",
             "title": "Chocolate com confete.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price": 54.00,
                 
         },
@@ -1055,7 +1055,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/dois-amores.webp",
             "name": "Dois Amores",
             "title": "Chocolate branco e chocolate preto.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price":52.00,
                 
         },
@@ -1064,7 +1064,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/napolitana.webp",
             "name": "Napolitana",
             "title": "Ninho, creme de morango e chocolate ao leite.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price": 54.00,
                 
         },
@@ -1073,7 +1073,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/leite-ninho.webp",
             "name": "Leite Ninho",
             "title": "Chocolate com creme de leite ninho.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price": 54.00,
                 
         },
@@ -1082,7 +1082,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/ouro-branco.webp",
             "name": "Ouro Branco",
             "title": "Chocolate com bombom Ouro Branco.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price": 54.00,
                
         },
@@ -1091,7 +1091,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/prestigio.webp",
             "name": "Prestígio",
             "title": "Chocolate com coco ralado.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price": 52.00,
                 
         },
@@ -1100,7 +1100,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/morango.webp",
             "name": "Morango",
             "title": "Chocolate e morango fruta.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price":54.00,
                
         },
@@ -1109,7 +1109,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/surpresa-uva.webp",
             "name": "Surpresa de Uva Novidade",
             "title": "Delicioso chocolate ao leite, uvas verdes sem caroço e um maravilhoso creme de ninho.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price": 54.00,
                 
         },
@@ -1118,7 +1118,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/abacaxi-nevado.webp",
             "name": "Abacaxi Nevado Novidade",
             "title": "Delicioso abacaxi com chocolate branco e uma pitada de canela.",
-            "dsc": "",
+             "dsc": "M 8 pdç",
             "price": 54.00,
                
         }
@@ -1129,7 +1129,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/banana-nevada.webp",
             "name": "Banana Nevada",
             "title": "Banana, chocolate branco, canela e açúcar.",
-            "dsc": "",
+            "dsc": "G 12 pdç",
             "price": 66.00
            
         },
@@ -1138,7 +1138,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/brigadeiro.webp",
             "name": "Brigadeiro",
             "title": "Chocolate com granulado.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price":66.00
         },
         {
@@ -1146,7 +1146,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/chocobana.webp",
             "name": "Chocobana",
             "title": "Leite condensado, mussarela, banana e chocolate.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price":  66.00
         },
         {
@@ -1154,7 +1154,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/confete.webp",
             "name": "Confete",
             "title": "Chocolate com confete.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price": 68.00
         },
         {
@@ -1162,7 +1162,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/dois-amores.webp",
             "name": "Dois Amores",
             "title": "Chocolate branco e chocolate preto.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price":  66.00
         },
         {
@@ -1170,7 +1170,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/napolitana.webp",
             "name": "Napolitana",
             "title": "Ninho, creme de morango e chocolate ao leite.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price": 68.00
         },
         {
@@ -1178,7 +1178,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/leite-ninho.webp",
             "name": "Leite Ninho",
             "title": "Chocolate com creme de leite ninho.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price": 68.00
         },
         {
@@ -1186,7 +1186,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/ouro-branco.webp",
             "name": "Ouro Branco",
             "title": "Chocolate com bombom Ouro Branco.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price": 68.00
         },
         {
@@ -1194,7 +1194,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/prestigio.webp",
             "name": "Prestígio",
             "title": "Chocolate com coco ralado.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price": 66.00
         },
         {
@@ -1202,7 +1202,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/morango.webp",
             "name": "Morango",
             "title": "Chocolate e morango fruta.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price": 68.00
         },
         {
@@ -1210,7 +1210,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/surpresa-uva.webp",
             "name": "Surpresa de Uva Novidade",
             "title": "Delicioso chocolate ao leite, uvas verdes sem caroço e um maravilhoso creme de ninho.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price": 68.00
         },
         {
@@ -1218,7 +1218,7 @@ var MENU = {
             "img": "assets/img/cardapio/pizzas/abacaxi-nevado.webp",
             "name": "Abacaxi Nevado Novidade",
             "title": "Delicioso abacaxi com chocolate branco e uma pitada de canela.",
-            "dsc": "",
+           "dsc": "G 12 pdç",
             "price":68.00
         }
     ],
