@@ -201,59 +201,78 @@ cardapio.metodos = {
 
     // altera os texto e exibe os botões das etapas
     carregarEtapa: (etapa) => {
-
         if (etapa == 1) {
             $("#lblTituloEtapa").text('Seu carrinho:');
             $("#itensCarrinho").removeClass('hidden');
-            $("#entregaRetirada").addClass('hidden');
+            $("#entregaRetirada").removeClass('hidden');
             $("#localEntrega").addClass('hidden');
             $("#resumoCarrinho").addClass('hidden');
-
+    
             $(".etapa").removeClass('active');
             $(".etapa1").addClass('active');
-
+    
             $("#btnEtapaPedido").removeClass('hidden');
             $("#btnEtapaEndereco").addClass('hidden');
             $("#btnEtapaResumo").addClass('hidden');
             $("#btnVoltar").addClass('hidden');
         }
-        
+    
         if (etapa == 2) {
             $("#lblTituloEtapa").text('Entrega / Retirada:');
             $("#itensCarrinho").addClass('hidden');
             $("#entregaRetirada").removeClass('hidden');
             $("#localEntrega").removeClass('hidden');
             $("#resumoCarrinho").addClass('hidden');
-
+    
             $(".etapa").removeClass('active');
             $(".etapa1").addClass('active');
             $(".etapa2").addClass('active');
-
+    
             $("#btnEtapaPedido").addClass('hidden');
             $("#btnEtapaEndereco").removeClass('hidden');
             $("#btnEtapaResumo").addClass('hidden');
             $("#btnVoltar").removeClass('hidden');
+    
+            // Lógica para desabilitar campos de endereço se "Retirada" estiver selecionado
+            if (document.getElementById('retirada').checked) {
+                document.getElementById('txtCEP').disabled = true;
+                document.getElementById('txtEndereco').disabled = true;
+                document.getElementById('txtBairro').disabled = true;
+                document.getElementById('txtNumero').disabled = true;
+                document.getElementById('txtCidade').disabled = true;
+                document.getElementById('txtComplemento').disabled = true;
+                document.getElementById('ddlUf').disabled = true;
+            } else {
+                // Caso contrário, habilita os campos de endereço
+                document.getElementById('txtCEP').disabled = false;
+                document.getElementById('txtEndereco').disabled = false;
+                document.getElementById('txtBairro').disabled = false;
+                document.getElementById('txtNumero').disabled = false;
+                document.getElementById('txtCidade').disabled = false;
+                document.getElementById('txtComplemento').disabled = false;
+                document.getElementById('ddlUf').disabled = false;
+            }
         }
-
+    
         if (etapa == 3) {
             $("#lblTituloEtapa").text('Resumo do pedido:');
             $("#itensCarrinho").addClass('hidden');
             $("#entregaRetirada").addClass('hidden');
             $("#localEntrega").addClass('hidden');
             $("#resumoCarrinho").removeClass('hidden');
-
+    
             $(".etapa").removeClass('active');
             $(".etapa1").addClass('active');
             $(".etapa2").addClass('active');
             $(".etapa3").addClass('active');
-
+    
             $("#btnEtapaPedido").addClass('hidden');
             $("#btnEtapaEndereco").addClass('hidden');
             $("#btnEtapaResumo").removeClass('hidden');
             $("#btnVoltar").removeClass('hidden');
         }
-
-    },
+    }
+    ,
 
     // botão de voltar etapa
     voltarEtapa: () => {
@@ -458,20 +477,46 @@ cardapio.metodos = {
     },
 
     resumoPedido: () => {
-        
+        const radioRetirada = document.getElementById('retirada');
+        const radioEntrega = document.getElementById('entrega');
+    
+        // Adiciona um evento de mudança para os inputs de rádio
+        radioRetirada.addEventListener('change', toggleEnderecoFields);
+        radioEntrega.addEventListener('change', toggleEnderecoFields);
+    
+        // Função para desabilitar ou habilitar campos com base na opção selecionada
+        function toggleEnderecoFields() {
+            const isRetiradaChecked = radioRetirada.checked;
+    
+            const camposEndereco = [
+                'txtCEP', 'txtEndereco', 'txtBairro', 
+                'txtNumero', 'txtCidade', 'txtComplemento', 'ddlUf'
+            ];
+    
+            camposEndereco.forEach(id => {
+                document.getElementById(id).disabled = isRetiradaChecked;
+            });
+    
+            if (isRetiradaChecked) {
+                document.getElementById('localEntrega').classList.add('hidden');
+                $("#lblValorTotal").text(`R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}`);
+                MEU_ENDERECO = {};
+                cardapio.metodos.carregarEtapa(3);
+                cardapio.metodos.carregarResumo();
+                return;
+            } else {
+                document.getElementById('localEntrega').classList.remove('hidden');
+            }
+        }
+    
+        // Inicializa o estado dos campos de endereço
+        toggleEnderecoFields();
+    
         // Verifica se a opção 'Retirada' está selecionada
-        if (document.getElementById('retirada').checked) {
-            // Se 'Retirada' estiver selecionado, esconde o formulário de endereço
-            document.getElementById('localEntrega').classList.add('hidden');
-            $("#lblValorTotal").text(`R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}`);
-            // Define o endereço como um objeto vazio
-           MEU_ENDERECO = {}; 
+        if (radioRetirada.checked) {
             cardapio.metodos.carregarEtapa(3);
             cardapio.metodos.carregarResumo();
             return;
-        } else {
-            // Se 'Entrega' estiver selecionado, mostra o formulário de endereço
-            document.getElementById('localEntrega').classList.remove('hidden');
         }
     
         let cep = $("#txtCEP").val().trim();
@@ -527,11 +572,12 @@ cardapio.metodos = {
             numero: numero,
             complemento: complemento
         }
-        
-
+    
         cardapio.metodos.carregarEtapa(3);
         cardapio.metodos.carregarResumo();
     },
+    
+    
     
 
     // Carrega a etapa de Resumo do pedido
