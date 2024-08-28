@@ -154,6 +154,11 @@
         font-size: 18px !important;
     }
 
+    .title-carrinho {
+        font-size: 16px;
+        color: var(--color-black);
+    }
+
     .modal-full .price-produto sub {
         font-size: 10px;
     }
@@ -161,6 +166,8 @@
     .card-item .add-carrinho {
         margin-top: 5px;
     }
+
+
 
     #itensCardapio .mb-5 {
         margin-bottom: 15px !important;
@@ -228,7 +235,7 @@
 
 
     .modal-full .title-produto-resumo {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .modal-full .title-produto,
