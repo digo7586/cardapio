@@ -414,6 +414,7 @@ cardapio.metodos = {
     
             if (retiradaRadio.checked) {
                 enderecoFields.forEach(field => field.removeAttribute('required'));
+                
             }
         };
     
@@ -480,14 +481,9 @@ cardapio.metodos = {
         const radioRetirada = document.getElementById('retirada');
         const radioEntrega = document.getElementById('entrega');
     
-        // Adiciona um evento de mudança para os inputs de rádio
-        radioRetirada.addEventListener('change', toggleEnderecoFields);
-        radioEntrega.addEventListener('change', toggleEnderecoFields);
-    
         // Função para desabilitar ou habilitar campos com base na opção selecionada
         function toggleEnderecoFields() {
             const isRetiradaChecked = radioRetirada.checked;
-    
             const camposEndereco = [
                 'txtCEP', 'txtEndereco', 'txtBairro', 
                 'txtNumero', 'txtCidade', 'txtComplemento', 'ddlUf'
@@ -503,20 +499,23 @@ cardapio.metodos = {
                 MEU_ENDERECO = {};
                 cardapio.metodos.carregarEtapa(3);
                 cardapio.metodos.carregarResumo();
-                return;
             } else {
                 document.getElementById('localEntrega').classList.remove('hidden');
+                const valorTotalComEntrega = VALOR_CARRINHO + VALOR_ENTREGA; // Adiciona a taxa de entrega
+                $("#lblValorTotal").text(`R$ ${valorTotalComEntrega.toFixed(2).replace('.', ',')}`);
             }
         }
     
         // Inicializa o estado dos campos de endereço
         toggleEnderecoFields();
     
+        // Adiciona um evento de mudança para os inputs de rádio
+        radioRetirada.addEventListener('change', toggleEnderecoFields);
+        radioEntrega.addEventListener('change', toggleEnderecoFields);
+    
         // Verifica se a opção 'Retirada' está selecionada
         if (radioRetirada.checked) {
-            cardapio.metodos.carregarEtapa(3);
-            cardapio.metodos.carregarResumo();
-            return;
+            return; // Interrompe a execução, pois a função toggleEnderecoFields já cuida do resto
         }
     
         let cep = $("#txtCEP").val().trim();
@@ -571,16 +570,18 @@ cardapio.metodos = {
             uf: uf,
             numero: numero,
             complemento: complemento
-        }
+        };
     
         cardapio.metodos.carregarEtapa(3);
         cardapio.metodos.carregarResumo();
-    },
+    }
+    
+    ,
     
     
     
 
-    // Carrega a etapa de Resumo do pedido
+
    // Carrega a etapa de Resumo do pedido
 carregarResumo: () => {
     let nomeRetirada = document.getElementById('nomeCliente').value;
@@ -635,9 +636,15 @@ carregarResumo: () => {
         $("#resumoEndereco").show();
         $("#cidadeEndereco").show();
     } else {
+         // Exibe o nome do cliente
+         $('#nomeCli').text(nomeRetirada);
+
         // Exibe o endereço fornecido pelo cliente
         $("#resumoEndereco").html(`${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`);
         $("#cidadeEndereco").html(`${MEU_ENDERECO.cidade}-${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`);
+
+        // Atualiza o valor total com entrega
+        $("#lblValorTotal").text(`R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}`);
         
         // Atualiza o título para 'Local da Entrega'
         $(".retiradas").html('<b>Local da entrega:</b>');
