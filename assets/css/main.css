@@ -36,6 +36,9 @@ b {
 .hidden {
     display: none!important;
 }
+.hiddens {
+    display: none!important;
+}
 
 .color-primary {
     color: var(--color-primary);
@@ -279,7 +282,7 @@ a.navbar-brand {
 }
 
 .card-item .title-produto {
-    font-size:16px;
+    font-size: 16px;
     color: var(--color-black);
     text-overflow: ellipsis;
     white-space: wrap;
@@ -287,7 +290,7 @@ a.navbar-brand {
 }
 
 .card-item .description {
-    font-size: 14px;    
+    font-size: 12px;    
     color: var(--color-text);
     text-overflow: ellipsis;
     white-space: normal;
