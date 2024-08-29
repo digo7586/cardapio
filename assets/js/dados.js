@@ -601,7 +601,7 @@ var MENU = {
         {
             "id": "01-AmericanaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "1- Americana",
+            "name": "Americana",
             "title": "Molho, presunto, palmito, ervilha, ovos, milho, bacon, mussarela, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -609,7 +609,7 @@ var MENU = {
         {
             "id": "02-AtumG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "02 - Atum",
+            "name": "Atum",
             "title": "Molho, mussarela, atum, tomate, cebola, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 68.00
@@ -617,7 +617,7 @@ var MENU = {
         {
             "id": "03-BaconG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "03 - Bacon",
+            "name": "Bacon",
             "title": "Molho, mussarela, bacon, cebola, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 64.00
@@ -625,7 +625,7 @@ var MENU = {
         {
             "id": "04-BaianinhaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "04 - Baianinha",
+            "name": "Baianinha",
             "title": "Molho, mussarela, calabresa, pimenta, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 64.00
@@ -633,7 +633,7 @@ var MENU = {
         {
             "id": "05-BauruG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "05 - Bauru",
+            "name": "Bauru",
             "title": "Molho, presunto, cebola, tomate, mussarela, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 64.00
@@ -641,7 +641,7 @@ var MENU = {
         {
             "id": "06-BrasileiraG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "06 - Brasileira",
+            "name": "Brasileira",
             "title": "Molho, mussarela, atum, milho, bacon, cebola, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 72.00
@@ -649,7 +649,7 @@ var MENU = {
         {
             "id": "07-BrócolisG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "07 - Brócolis",
+            "name": "Brócolis",
             "title": "Molho, mussarela, brócolis, bacon, alho, catupiry, parmesão, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -657,7 +657,7 @@ var MENU = {
         {
             "id": "08-CalabresalG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "08 - Calabresa l",
+            "name": "Calabresa l",
             "title": "Molho, mussarela, calabresa, cebola, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 64.00
@@ -665,7 +665,7 @@ var MENU = {
         {
             "id": "09-CalabresaEspecialG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "09 - Calabresa Especial",
+            "name": "Calabresa Especial",
             "title": "Molho, mussarela, calabresa, tomate, bacon, catupiry, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -673,7 +673,7 @@ var MENU = {
         {
             "id": "10-ContraFileG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "10 - Contra Filé",
+            "name": "Contra Filé",
             "title": "Molho, mussarela, catupiry, contra filé ao molho madeira, cebola roxa, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 77.00
@@ -681,7 +681,7 @@ var MENU = {
         {
             "id": "11-CrocanteG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "11 - Crocante",
+            "name": "Crocante",
             "title": "Molho, mussarela, frango, milho, bacon, batata palha, cheddar, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -689,7 +689,7 @@ var MENU = {
         {
             "id": "12-FrangoCatupiryG",
             "img": "assets/img/cardapio/pizzas/francoCcat.png",
-            "name": "12 - Frango c/ Catupiry",
+            "name": "Frango c/ Catupiry",
             "title": "Molho, frango, catupiry, tomate, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 64.00
@@ -697,7 +697,7 @@ var MENU = {
         {
             "id": "13-FrangoEspecialG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "13 - Frango Especial",
+            "name": "Frango Especial",
             "title": "Molho, frango, milho, mussarela, bacon, catupiry, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -705,7 +705,7 @@ var MENU = {
         {
             "id": "14-FrangoBrocolisG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "14 - Frango c/ Brócolis",
+            "name": "Frango c/ Brócolis",
             "title": "Molho, mussarela, frango, brócolis, catupiry, parmesão, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -713,7 +713,7 @@ var MENU = {
         {
             "id": "15-FrangoCreamCheeseG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "15 - Frango c/ Cream Cheese",
+            "name": "Frango c/ Cream Cheese",
             "title": "Molho, mussarela, frango, milho, cream cheese, bacon, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -721,7 +721,7 @@ var MENU = {
         {
             "id": "16-HotDogG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "16 - Hot Dog",
+            "name": "Hot Dog",
             "title": "Molho, mussarela, salsicha, bacon, milho, batata palha, catupiry, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 6.00
@@ -729,7 +729,7 @@ var MENU = {
         {
             "id": "17-LomboCreamCheeseG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "17 - Lombo c/ Cream Cheese",
+            "name": "Lombo c/ Cream Cheese",
             "title": "Molho, mussarela, lombo, cream cheese, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -737,7 +737,7 @@ var MENU = {
         {
             "id": "18-LomboEspecialG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "18 - Lombo Especial",
+            "name": "Lombo Especial",
             "title": "Molho, mussarela, lombo canadense, catupiry, bacon, tomate, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -745,7 +745,7 @@ var MENU = {
         {
             "id": "19-MargueritaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "19 - Marguerita",
+            "name": "Marguerita",
             "title": "Molho, mussarela, manjericão, parmesão, tomate, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -753,7 +753,7 @@ var MENU = {
         {
             "id": "20-MexicanaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "20 - Mexicana",
+            "name": "Mexicana",
             "title": "Molho, mussarela, calabresa, tomate, pimentão, bacon, alho frito, parmesão, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -761,7 +761,7 @@ var MENU = {
         {
             "id": "21-MilhoG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "21 - Milho",
+            "name": "Milho",
             "title": "Molho, mussarela, milho, catupiry, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 64.00
@@ -769,7 +769,7 @@ var MENU = {
         {
             "id": "22-ModaDaCasaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "22 - Moda da Casa",
+            "name": "Moda da Casa",
             "title": "Molho, calabresa, milho, ervilhas, ovos, palmito, mussarela, bacon, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 72.00
@@ -777,7 +777,7 @@ var MENU = {
         {
             "id": "23-ModaDoChefeG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "23 - Moda do Chefe",
+            "name": "Moda do Chefe",
             "title": "Molho, mussarela, calabresa, milho, ovos, tomate, cebola, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -785,7 +785,7 @@ var MENU = {
         {
             "id": "24-MussarelaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "24 - Mussarela",
+            "name": "Mussarela",
             "title": "Molho, mussarela, tomate, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -793,7 +793,7 @@ var MENU = {
         {
             "id": "25-PalmitoG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "25 - Palmito",
+            "name": "Palmito",
             "title": "Molho, mussarela, palmito, cebola, catupiry, parmesão, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -801,7 +801,7 @@ var MENU = {
         {
             "id": "26-PeitoPeruCreamCheeseG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "26 - Peito de Peru c/ Cream Cheese",
+            "name": "Peito de Peru c/ Cream Cheese",
             "title": "Molho, mussarela, peito de peru, cream cheese, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 72.00
@@ -809,7 +809,7 @@ var MENU = {
         {
             "id": "27-PeitoPeruEspecialG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "27 - Peito de Peru Especial",
+            "name": "Peito de Peru Especial",
             "title": "Molho, mussarela, peito de peru, tomate, cebola, catupiry, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -817,7 +817,7 @@ var MENU = {
         {
             "id": "28-PepperoniG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "28 - Pepperoni",
+            "name": "Pepperoni",
             "title": "Molho, mussarela, pepperoni, tomate, cebola, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 74.00
@@ -825,7 +825,7 @@ var MENU = {
         {
             "id": "29-PizzaBurguerG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "29 - Pizza Burguer",
+            "name": "Pizza Burguer",
             "title": "Molho, mussarela, milho, tomate, hamburguer, catchup, maionese, batata palha, bacon, ovos, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 77.00
@@ -833,7 +833,7 @@ var MENU = {
         {
             "id": "30-PortuguesaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "30 - Portuguesa",
+            "name": "Portuguesa",
             "title": "Molho, presunto, palmito, ervilha, ovos, tomate, cebola, mussarela, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -841,7 +841,7 @@ var MENU = {
         {
             "id": "31-TomateSecoG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "31 - Tomate Seco",
+            "name": "Tomate Seco",
             "title": "Molho, mussarela, tomate seco, rúcula, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -849,7 +849,7 @@ var MENU = {
         {
             "id": "32-TradicionalG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "32 - Tradicional",
+            "name": "Tradicional",
             "title": "Molho, mussarela, presunto, tomate, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 64.00
@@ -857,7 +857,7 @@ var MENU = {
         {
             "id": "33-4QueijosG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "33 - 4 Queijos",
+            "name": "4 Queijos",
             "title": "Molho, mussarela, provolone, catupiry, parmesão, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 72.00
@@ -865,7 +865,7 @@ var MENU = {
         {
             "id": "34-5QueijosG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "34 - 5 Queijos",
+            "name": "5 Queijos",
             "title": "Molho, mussarela, provolone, catupiry, gorgonzola, parmesão, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 72.00
@@ -873,7 +873,7 @@ var MENU = {
         {
             "id": "35-BaconSupremoG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "35 - Bacon Supremo Novidade",
+            "name": "Bacon Supremo Novidade",
             "title": "Molho, mussarela, bacon em tiras, cream cheese, tomate cereja, cebola roxa, parmesão, azeitonas e orégano.",
             "dsc": " G 12 pdç",
             "price": 70.00
@@ -881,7 +881,7 @@ var MENU = {
         {
             "id": "36abobrinhaG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "36 - Abobrinha Novidade",
+            "name": "Abobrinha Novidade",
             "title": "Molho, Mussarela, abobrinha no azeite, tomate cereja, parmesão, orégano e azeitona.",
             "dsc": " G 12 pdç",
             "price": 67.00
@@ -889,7 +889,7 @@ var MENU = {
         {
             "id": "37-peitosupremoG",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "37 - Peito Supremo Novidade",
+            "name": "Peito Supremo Novidade",
             "title": "Molho, Mussarela, Peito de Peru, cream cheese, tomate cereja, parmesão, orégano e azeito.",
             "dsc": " G 12 pdç",
             "price": 74.00
