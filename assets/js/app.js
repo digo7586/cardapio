@@ -672,7 +672,7 @@ carregarResumo: () => {
             var itens = '';
     
             $.each(MEU_CARRINHO, (i, e) => {
-                itens += `*${e.qntd}x* ${e.name} ${e.dsc} ....... R$ ${e.price.toFixed(2).replace('.', ',')} \n`;
+                itens += `*${e.qntd}x* ${e.name} ${e.dsc} .. R$ ${e.price.toFixed(2).replace('.', ',')} \n`;
     
                 // Último item
                 if ((i + 1) == MEU_CARRINHO.length) {
