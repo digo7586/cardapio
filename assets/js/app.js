@@ -807,7 +807,9 @@ cardapio.templates = {
 
     itemCarrinho: `
         <div class="col-12 item-carrinho">
-            
+            <div class="img-produto">
+                <img src="\${img}" />
+            </div>
             <div class="dados-produto">
             
                 <p class="title-produto"><b> \${nome}</b> \${dsc}</p>
