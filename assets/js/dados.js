@@ -302,7 +302,7 @@ var MENU = {
         {
             "id": "01-AmericanaM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Americana",
+            "name": "Hokage Suprema",
             "title": "Molho, presunto, palmito, ervilha, ovos, milho, bacon, mussarela, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 56.00
@@ -310,15 +310,15 @@ var MENU = {
         {
             "id": "02-AtumM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Atum",
-            "title": "Molho, mussarela, atum, tomate, cebola, azeitonas e orégano.",
+            "name": "Sharingan",
+            "title": "Molho, mussarela, calabresa, tomate, cebola, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 54.00
         },
         {
             "id": "03-BaconM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Bacon",
+            "name": "Rasengan de bacon",
             "title": "Molho, mussarela, bacon, cebola, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 50.00
@@ -326,23 +326,23 @@ var MENU = {
         {
             "id": "04-BaianinhaM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Baianinha",
-            "title": "Molho, mussarela, calabresa, pimenta, azeitonas e orégano.",
+            "name": "Chidori calabresa",
+            "title": "Molho, mussarela, calabresa, bacon, pimenta, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 50.00
         },
         {
             "id": "05-BauruM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Bauru",
-            "title": "Molho, presunto, cebola, tomate, mussarela, azeitonas e orégano.",
+            "name": "Kunai Picante",
+            "title": "Molho, pimenta, cebola, tomate, mussarela, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 50.00
         },
         {
             "id": "06-BrasileiraM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Brasileira",
+            "name": "Akatsuki",
             "title": "Molho, mussarela, atum, milho, bacon, cebola, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 58.00
@@ -350,7 +350,7 @@ var MENU = {
         {
             "id": "07-BrócolisM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Brócolis",
+            "name": "Jutsu de brócolis",
             "title": "Molho, mussarela, brócolis, bacon, alho, catupiry, parmesão, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 53.00
@@ -358,7 +358,7 @@ var MENU = {
         {
             "id": "08-CalabresalM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Calabresa l",
+            "name": "Byakugan",
             "title": "Molho, mussarela, calabresa, cebola, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 50.00
@@ -366,7 +366,7 @@ var MENU = {
         {
             "id": "09-CalabresaEspecialM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Calabresa Especial",
+            "name": "Senju Suprema",
             "title": "Molho, mussarela, calabresa, tomate, bacon, catupiry, azeitonas e orégano.",
             "dsc": " M 8 pdç",
             "price": 53.00
@@ -374,7 +374,7 @@ var MENU = {
         {
             "id": "10-ContraFileM",
             "img": "assets/img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Contra Filé",
+            "name": "Konoha Recheada",
             "title": "Molho, mussarela, catupiry, contra filé ao molho madeira, cebola roxa, azeitonas e orégano.",
             "dsc": "M 8 pdç",
             "price": 63.00
